@@ -44,11 +44,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         OnSuccessListener<Location> {
 
     private static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
-    ArrayList<LatLng> MarkerPoints;
-    GoogleApiClient mGoogleApiClient;
-    Location mLastLocation;
-    Marker mCurrLocationMarker;
-    LocationRequest mLocationRequest;
+    private ArrayList<LatLng> MarkerPoints;
+    private GoogleApiClient mGoogleApiClient;
+    private Location mLastLocation;
+    private Marker mCurrLocationMarker;
+    private LocationRequest mLocationRequest;
     private GoogleMap mMap;
 
     @Override
